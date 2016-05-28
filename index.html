@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Jquery TodoList</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+	<link rel="stylesheet" href="styles.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+</head>
+<body>
+	<div class="container">
+		<h1>Goods</h1>
+		<hr>		
+		<p class="input_container">			
+			<input id="new-text" name="text" type="text" autocomplete="off" placeholder="Please, enter the task">
+			<span class="error">Enter a task name longer than 6 characters</span>
+		</p>		
+
+		<input type="checkbox" id="toggle-all"/>Complete All
+		<hr>
+		<ul id="todo-list">
+		</ul>
+			
+		<button id="clearcompleted">Clear Completed</button>
+	</div>
+<script src="script.js"></script>
+</body>
+</html>
